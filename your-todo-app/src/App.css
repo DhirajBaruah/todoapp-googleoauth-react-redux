@@ -1,0 +1,183 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box
+}
+/**
+*
+*** Style for Home Component
+*
+*/
+.tag-line, .google-signup {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 30vh;
+}
+.tag-line .text{
+    text-align: right;
+    padding-bottom: 40px;
+}
+.tag-line p{
+    margin-top: 0px;
+}
+.tag-line h1{
+    margin-bottom: 0px;
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+    color:#FFD700;
+    text-shadow: 0 0 20px #FFD700;
+}
+.tag-line button{
+    border-radius: 10px;
+    background-color:#000;
+    color:#fff;
+    border: 1px solid #FFD700;
+    height:46px;
+    width: 119px;
+}
+
+.tag-line button:hover {
+    box-shadow: 0 0 20px #FFD700;
+    text-shadow: 0 0 20px #FFD700;
+    height:50px;
+    width: 123px;
+    cursor: pointer;
+    border: none;
+}
+.links{
+    text-decoration: none;
+}
+
+
+/**
+*
+*** Style for Signup Component
+*
+*/
+
+.google-signup a{
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 100px;
+    background-color: red;
+    color:white;
+}
+.google-signup a:hover{
+    box-shadow: 0 0 5px red;
+    font-size: 55px;
+}
+
+/**
+*
+*** Style for Todo Component and UpdateTodo
+*
+*/
+.todo-app, .todo-app form, .update-todo-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.todo-app-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 20px;
+    width:70vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.todo-app-container h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.todo-app button, .update-todo-container button{
+    font-size: 12px;
+    background-color:rgba(255,255,255,0.2);
+    border-radius: 5px;
+    color: rgba(255,255,255,0.6);
+    border:none;
+    cursor: pointer;
+    margin:2px;
+    padding:5px;
+}
+
+.todo-app input{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.each-todo{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+/**
+*
+*** Style for UpdateTodo Component
+*
+*/
+.update-todo-container input{
+    height:40px;
+    width: 160px;
+    border-radius: 10px;
+    background-color:rgba(255,255,255,0.95);
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+/**
+*
+*** Style for Navbar Component
+*
+*/
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    min-height:8vh;
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.logo{
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-size:20px;
+}
+.nav-links {
+    display:flex;
+    justify-content:space-around;
+    width:50%;
+}
+.nav-links li{
+    list-style: none;
+    cursor:pointer;
+}
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    letter-spacing:1px;
+    font-size:12px;
+}
+
+@media screen and (max-width:1080px){
+    .nav-links {
+        width:65%;
+    }
+}
+@media screen and (max-width:600px){
+    .nav-links {
+        width:75%;
+    }
+}
+@media screen and (max-width:400px){
+    .nav-links {
+        width:95%;
+    }
+}
+
