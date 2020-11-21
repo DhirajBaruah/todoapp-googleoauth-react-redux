@@ -1,10 +1,25 @@
-# Getting Started with Create React App
+# This is a Todo webApplication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend is bootstrapped with reac.js and redux. For backend node.js, express and mongodb atlas is being used. 
+For authorisation GoogleOauth20 api is used. To learn more about this api go to [here](https://developers.google.com/identity/protocols/oauth2)
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory you will find two sub directory server and your-todo-app. In server directory you can run:
+
+### `npm install`
+
+To install all the node modules required.
+
+### `node server`
+
+To start the server and it Runs the server in the development mode at [http://localhost:3000](http://localhost:3000)
+
+Again in your-cd-app directory you can run:
+
+### `npm install`
+
+To install all the node modules required.
 
 ### `npm start`
 
@@ -41,30 +56,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In development environment http-proxy-middleware is used to proxy the react app to the server. You can learn more about this package [here](https://www.npmjs.com/package/http-proxy-middleware)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
